@@ -15,7 +15,7 @@ while True:
         if event.type in (QUIT,KEYDOWN):
             exit()
     index +=1
-    if index%5550==0:
+    if index%15550==0:
         sceen.fill((0,0,0))
         #move the rectang
         pos_x += ver_x
