@@ -6,14 +6,17 @@
 #其中一个大于或等于它的平方根，一个小于或等于它的平方根。并且成对出现。
 
 from math import sqrt
-for i in range(101,201):
-    for j in range(2,int(sqrt(i))+1):
-        if i%j==0:
 
-            break
-        else:
-            print(i)
-            break
+for i in range(101,201):
+    deep = 0
+    for j in range(2,int(sqrt(i))+1):
+        if i%j == 0:
+            deep = 1
+    if deep == 1:
+        #print('%s is 质数' % i)
+        pass
+    else:
+        print('%s is 素数' % i)
 
 
 

@@ -18,3 +18,11 @@ for i in a:
         others+=1
 
 print('字母有{}个，空格有{}个，数字有{}个，其他字符有{}个'.format(letters,space,number,others))
+'''
+ssss
+'''
+str ="""
+大法师带饭的
+是s
+"""
+print(str)
