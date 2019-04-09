@@ -4,7 +4,7 @@
 
 s = input('str:')
 
-file = open('abc','w')
+file = open('abcc','w')
 ss = s.upper()
 print(ss)
 print(s)
