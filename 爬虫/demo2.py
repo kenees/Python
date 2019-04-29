@@ -1,5 +1,9 @@
 # import sys
 # sys.path.append(r'/Users/eme/PycharmProjects/PythonStudy/爬虫/getMenu')
+'''
+    爬取小说目录
+'''
+
 
 import requests
 from bs4 import BeautifulSoup
