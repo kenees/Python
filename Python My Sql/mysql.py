@@ -4,7 +4,7 @@
 import pymysql
 
 #打开数据库连接
-db = pymysql.connect(host='10.19.105.146',user='root',password='o83ennArmZd2dXn7',db='node',port=3306)
+db = pymysql.connect(host='localhost',user='test',password='wangcheng',db='test',port=3306)
 
 #使用cursor()方法获取操作游标
 cur = db.cursor()
