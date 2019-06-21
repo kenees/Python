@@ -10,7 +10,7 @@ def button(root, side, text, command = None):
     w = Button(root, text = text, command = command)
     w.pack(side = side, expand = YES, fill = BOTH)
     return w
-#继承了Frame类，初始化程序界面的布局 lw
+#继承了Frame类，初始化程序界面的布局 wc666
 class Calculator(Frame):
     def __init__(self):
 
